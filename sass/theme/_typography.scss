@@ -1,0 +1,54 @@
+//
+// Fonts
+//
+
+$gotham-font-path:   "../fonts/gotham";
+
+@font-face {
+	font-family: "Gotham Book";
+	src: url('#{$gotham-font-path}/Gotham-Book.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "Gotham Light";
+	src: url('#{$gotham-font-path}/Gotham-Light.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "Gotham Medium";
+	src: url('#{$gotham-font-path}/Gotham-Medium.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "Gotham Thin";
+	src: url('#{$gotham-font-path}/Gotham-Thin.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "Gotham Ultra";
+	src: url('#{$gotham-font-path}/Gotham-Ultra.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "GothamN Black";
+	src: url('#{$gotham-font-path}/GothamNarrow-Black.otf') format('opentype');
+}
+@font-face {
+	font-family: "GothamN Book";
+	src: url('#{$gotham-font-path}/GothamNarrow-Book.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "GothamN Thin";
+	src: url('#{$gotham-font-path}/GothamNarrow-Thin.otf') format('opentype'); 
+}
+@font-face {
+	font-family: "GothamN Ultra";
+	src: url('#{$gotham-font-path}/GothamNarrow-Ultra.otf') format('opentype'); 
+}
+
+
+// Site Title
+h1.navbar-brand {
+	font-family: "Gotham Medium";
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 2.7px;
+	line-height: 18px;
+	text-align: center;
+}
+

@@ -1,5 +1,15 @@
-*
+# ignore root folder
+/*
+
+# whitelist certain files
 !.gitignore
-!/sass/theme/*
-!/fonts/gotham/*
 !header.php
+
+#whitelist certain folders and their contents
+!sass/
+sass/*
+!sass/theme
+
+!fonts/
+fonts/*
+!fonts/gotham
