@@ -1,5 +1,5 @@
 *
 !.gitignore
-!sass/theme/
-!fonts/gotham/
+!/sass/theme/*
+!/fonts/gotham/*
 !header.php
