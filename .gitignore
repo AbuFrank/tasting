@@ -13,3 +13,5 @@ sass/*
 !fonts/
 fonts/*
 !fonts/gotham
+
+!page-templates/
